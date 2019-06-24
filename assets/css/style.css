@@ -1,0 +1,20 @@
+
+.showAnswers {
+    border: solid  1px  purple;
+    color: red;
+    width: auto;
+}
+
+.answers {
+    border: solid  1px  purple;
+    color: red;
+}
+
+.bigbox {
+    border: solid 2px grey;
+}
+
+.quote {
+    color: blue;
+    font-size: 20px;
+}
