@@ -1,4 +1,9 @@
 
+h1 {
+    text-align: center;
+}
+
+
 .showAnswers {
     border: solid  1px  purple;
     color: red;
@@ -17,4 +22,41 @@
 .quote {
     color: blue;
     font-size: 20px;
+}
+
+.clock {
+    color: red;
+    font-size: 35px;
+}
+
+#resultsBox {
+    visibility: hidden;
+    margin: 0 auto;
+    width: 150px; 
+
+}
+
+#resultTitle {
+    font-size: 20px;
+    color: darkblue;
+    text-align: center;
+    width: 150px;
+}
+
+.resultSmallBox {
+    border:  solid 1px  lightblue;
+    width:  150px;
+    text-align: center;
+    padding: 10px 10px 10px  10px;
+}
+
+#gameArea {
+    display: none;
+    border: solid  1px  lightseagreen;
+}
+
+#submit {
+    border: solid 1px whitesmoke;
+    background-color: blue;
+    color: white;
 }
