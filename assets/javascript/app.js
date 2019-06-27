@@ -6,6 +6,10 @@
 //Click function to display "correct" or "wrong", then disable
 //If there's an answer for each question, then display results
 
+
+// STILL NEED   IMPROVED LOGIC FOR SCORING //
+// STILL NEED   FORCE SELECTION LOGIC or BLANK TALLY //
+
 var number = 60;
 console.log(number);
 
@@ -77,52 +81,19 @@ function start() {
     })
 };
 
+
   start();
 
-  $(".sA1a").click(function() {
-      //alert("NIIIIIICE!!!");
+  $(".sA1a, .sA2b, .sA3c").click(function() {
       console.log("test-rightanswer");
-      correct+=1;
+      correct +=1;
       console.log(correct);
   });
 
-  $(".sA1b, .sA1c, .sA1d").click(function() {
-    //alert("no, sorry!");
-    console.log("no, sorry!");
+  $(".sA1b, .sA1c, .sA1d, .sA2a, .sA2c, .sA2d, .sA3a, .sA3b, .sA3d").click(function() {
+    console.log("wrong answer")
     wrong +=1;
     console.log(wrong);
-});
-
-$(".sA2b").click(function() {
-    //alert("NIIIIIICE!!!");
-    console.log("test-rightanswer");
-    correct+=1;
-    console.log(correct);
-
-});
-
-$(".sA2a, .sA2c, .sA2d").click(function() {
-    //alert("no, sorry!");
-    console.log("no, sorry!");
-    wrong +=1;
-    console.log(wrong);
-
-});
-
-$(".sA3c").click(function() {
-    //alert("NIIIIIICE!!!");
-    console.log("test-rightanswer");
-    correct+=1;
-    console.log(correct);
-
-});
-
-$(".sA3a, .sA3b, .sA3d").click(function() {
-    //alert("no, sorry!");
-    console.log("no, sorry!");
-    wrong +=1;
-    console.log(wrong);
-
 });
 
 

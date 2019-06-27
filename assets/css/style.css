@@ -1,6 +1,7 @@
 
 h1 {
     text-align: center;
+    background-color: lightgray;
 }
 
 
@@ -10,29 +11,45 @@ h1 {
     width: auto;
 }
 
+body {
+    background: url(assets/images/julien-andrieux-332817-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 1400px 1200px;
+}
+
 .answers {
     border: solid  1px  purple;
     color: red;
+    background-color: lightgray;
+
 }
 
 .bigbox {
     border: solid 2px grey;
+    background-color: lightgray;
+
 }
 
 .quote {
     color: blue;
     font-size: 20px;
+    background-color: lightgray;
+
 }
 
 .clock {
     color: red;
     font-size: 35px;
+    background-color: lightgray;
+
 }
 
 #resultsBox {
     visibility: hidden;
     margin: 0 auto;
     width: 150px; 
+    background-color: lightgray;
+
 
 }
 
@@ -41,6 +58,8 @@ h1 {
     color: darkblue;
     text-align: center;
     width: 150px;
+    background-color: lightgray;
+
 }
 
 .resultSmallBox {
@@ -48,15 +67,55 @@ h1 {
     width:  150px;
     text-align: center;
     padding: 10px 10px 10px  10px;
+    background-color: lightgray;
+
 }
 
 #gameArea {
     display: none;
     border: solid  1px  lightseagreen;
+    background-color: lightgray;
+    margin: auto;
+    width: 800px;
+
 }
 
 #submit {
     border: solid 1px whitesmoke;
     background-color: blue;
     color: white;
+
 }
+
+.intro {
+    background-color: lightgray;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+#starterButton {
+    margin: auto;
+    width: 50px;
+
+}
+
+#go {
+    margin: auto;
+    width: 50px;
+
+}
+
+.button {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+  }
+
+  .destiny {
+    display: block;
+    max-width: 300px;
+    margin: auto;
+  }

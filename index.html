@@ -24,8 +24,9 @@
         <h1>Movie Quote Trivia</h1>
         <div class="introStuff">
             <div class="intro">Match the movie quote with the move title, you have 60 seconds, good luck!</div>
+            <div id="starterButton">
             <button id="go">Start</button>
-            <div id="starterButton"></div>
+            </div>
         </div>
         <br>
         <div id="gameArea">
@@ -34,35 +35,37 @@
             <div class="bigbox">
                 <div class="quote1 quote"></div>
                 <div class="showAnswers1 showAnswer">
-                     <div class="sA1a"><input type="radio" name="q1Answers" id="sA1a"></div>
-                    <div class="sA1b"><input type="radio" name="q1Answers" id="sA1b"></div>
-                    <div class="sA1c"><input type="radio" name="q1Answers" id="sA1c"></div>
-                    <div class="sA1d"><input type="radio" name="q1Answers" id="sA1d"></div>
+                     <div class="sA1a"><input type="radio" name="q1Answers" id="sA1a" value="1"></div>
+                    <div class="sA1b"><input type="radio" name="q1Answers" id="sA1b" value="0"></div>
+                    <div class="sA1c"><input type="radio" name="q1Answers" id="sA1c" value="0"></div>
+                    <div class="sA1d"><input type="radio" name="q1Answers" id="sA1d" value="0"></div>
                 </div>
             </div><br>
             
             <div class="bigbox">
                 <div class="quote2 quote"></div>
                 <div class="showAnswers2 showAnswer">
-                    <div class="sA2a"><input type="radio" name="q2Answers" id="sA2a"></div>
-                    <div class="sA2b"><input type="radio" name="q2Answers" id="sA2b"></div>
-                    <div class="sA2c"><input type="radio" name="q2Answers" id="sA2c"></div>
-                    <div class="sA2d"><input type="radio" name="q2Answers" id="sA2d"></div>
+                    <div class="sA2a"><input type="radio" name="q2Answers" id="sA2a" value="0"></div>
+                    <div class="sA2b"><input type="radio" name="q2Answers" id="sA2b" value="1"></div>
+                    <div class="sA2c"><input type="radio" name="q2Answers" id="sA2c" value="0"></div>
+                    <div class="sA2d"><input type="radio" name="q2Answers" id="sA2d" value="0"></div>
                 </div>
             </div><br>
             
             <div class="bigbox">
                 <div class="quote3 quote"></div>
                 <div class="showAnswers3 showAnswer">
-                    <div class="sA3a"><input type="radio" name="q3Answers" id="sA3a"></div>
-                    <div class="sA3b"><input type="radio" name="q3Answers" id="sA3b"></div>
-                    <div class="sA3c"><input type="radio" name="q3Answers" id="sA3c"></div>
-                    <div class="sA3d"><input type="radio" name="q3Answers" id="sA3d"></div>
+                    <div class="sA3a"><input type="radio" name="q3Answers" id="sA3a" value="0"></div>
+                    <div class="sA3b"><input type="radio" name="q3Answers" id="sA3b" value="0"></div>
+                    <div class="sA3c"><input type="radio" name="q3Answers" id="sA3c" value="1"></div>
+                    <div class="sA3d"><input type="radio" name="q3Answers" id="sA3d" value="0"></div>
                 </div><br>
             </div>
             </div>
             <br>
+            <div class="destiny">
             <input id="submit" type="button" value="SUBMIT TO YOUR DESTINY" onclick ="done();"></button>
+            </div>
             <br>
             <div id="resultsBox">
                 <p id="resultTitle">All done!</p>
@@ -77,7 +80,7 @@
                 <!--<div class="resultSmallBox">-->
                     <!--<p id="resultBlank">Not submitted: </p>-->
                     <!--<div id="resultBlankNum"></div>-->
-                <!--</div><br>-->
+                <!--</div><br>-->   
 
 
 
